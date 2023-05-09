@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper{
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    border: 3px solid yellow;
+    background-color: bisque;
+  }
+  
+  .dot1{
+    color: bisque;
+    position: absolute;
+    top: -200px;
+    left: 200px;
+    margin: 50vh auto;
+    width: 300px;
+    height: 100px;
+    border: 2px solid red;
+    background-color: bisque;
+  }
+  
+  .container1{
+    font-size: 25px;
+    padding: 5px 30px;
+    width: 50px;
+    height: 100px;
+    border: 2px ;
+    
+  }
+   .container1:hover{
+    width: 300px;
+    height: 100px;
+    border: 2px solid blue;
+    animation-name: animateit;
+    animation-duration: 1s;
+    animation-direction: normal;
+  }
+  @keyframes animateit
+  {
+    0%
+    {
+      width: 0;
+      background-color: blue;
+    }
+    100%
+    { 
+      width: 300px;
+      background-color: blue;
+    }
+  }
+  
+  
+  
+  
+  .general{
+    padding: 20px 50px;
+    font-size: 30px;
+    color: bisque;
+    border: 1px solid black;
+    position: absolute;
+    left: 200px;
+    top: -300px;
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid red;
+    margin: 50vh auto;
+  }
+  .general:hover{
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    background-color: black;
+    animation-name: animeyshn;
+    animation-duration: 1s;
+  }
+  @keyframes animeyshn
+  {
+   0%
+   {
+     width: 0;
+     background-color: yellow;
+   }
+   100%
+   { 
+     width: 300px;
+     background-color: yellow;
+   }
+  }
+  
+  
+  
+  
+  .general3{
+    padding: 20px 50px;
+    font-size: 30px;
+    color: bisque;
+    border: 1px solid black;
+    position: absolute;
+    left: 200px;
+    top: -100px;
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid red;
+    margin: 50vh auto;
+  }
+  .general3:hover{
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    background-color: black;
+    animation-name: animate3;
+    animation-duration: 1s;
+  }
+  @keyframes animate3
+  {
+   0%
+   {
+     width: 0;
+     background-color: green;
+   }
+   100%
+   { 
+     width: 300px;
+     background-color: green;
+   }
+  }
+  
+  
+  
+  .general4{
+    padding: 20px 50px;
+    font-size: 30px;
+    color: bisque;
+    border: 1px solid black;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid red;
+    margin: 50vh auto;
+  }
+  .general4:hover{
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    background-color: ;
+    animation-name: animate4;
+    animation-duration: 1s;
+  }
+  @keyframes animate4
+  {
+   0%
+   {
+     width: 0;
+     background-color: red;
+   }
+   100%
+   { 
+     width: 300px;
+     background-color: red;
+   }
+  }
+  
+  
+  
+  .general5{
+    padding: 20px 50px;
+    font-size: 30px;
+    color: bisque;
+    border: 1px solid black;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid red;
+    margin: 50vh auto;
+  }
+  .general5:hover{
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    background-color: black;
+    animation-name: animate5;
+    animation-duration: 1s;
+  }
+  @keyframes animate5
+  {
+   0%
+   {
+     width: 0;
+     background-color: black;
+   }
+   100%
+   { 
+     width: 300px;
+     background-color: black;
+   }
+  }
